@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About | JMT Info | JMT Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main style sheet  -->
+
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+    <!-- Narrow style sheet  -->
+
+    <link href="css/mobile.css" rel="stylesheet" media="only screen and (max-width:700px)">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Raleway:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Controls function of hamburger menu  -->
+
+    <script>
+        $(document).ready(function() {
+            $(".cross").hide();
+            $(".menu").hide();
+            $(".hamburger").click(function() {
+                $(".menu").slideToggle("slow", function() {
+                    $(".hamburger").hide();
+                    $(".cross").show();
+                });
+            });
+
+            $(".cross").click(function() {
+                $(".menu").slideToggle("slow", function() {
+                    $(".cross").hide();
+                    $(".hamburger").show();
+                });
+            });
+        });
+
+    </script>
+
+    <div class="wrapper">
+        <div class="small-top">
+            <div class="justified-flex">
+                <header class="smaller-header">
+                    <a href="./index.html" class="logo">
+                        <h2><em>JMT</em></h2>
+                        <picture>
+                            <source srcset="images/small-logo.webp" type="image/webp">
+                            <source srcset="images/small-logo.png" type="image/png">
+                            <img src="./images/small-logo.png" alt="JMT Hub Logo">
+                        </picture>
+                        <h2><em>Hub</em></h2>
+                    </a>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="./getting-started.html">Getting Started</a></li>
+                        <li><a href="./permits.html">Permits</a></li>
+                        <li><a href="./trail-maps.html">Trail Maps</a></li>
+                        <li><a href="./gear-guide.html">Gear Guide</a></li>
+                        <li><a href="./wildlife-guide.html">Wildlife Guide</a></li>
+                        <li><a href="./media.html">Media</a></li>
+                    </ul>
+                </nav>
+                <!-- Hamburger menu controls -->
+
+                <div id="mobile">
+                    <button class="hamburger">&#x2261;</button>
+                    <button class="cross">x</button>
+                </div>
+
+                <!-- Hamburger menu options  -->
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="./getting-started.html">Getting Started</a></li>
+                        <li><a href="./permits.html">Permits</a></li>
+                        <li><a href="./trail-maps.html">Trail Maps</a></li>
+                        <li><a href="./gear-guide.html">Gear Guide</a></li>
+                        <li><a href="./wildlife-guide.html">Wildlife Guide</a></li>
+                        <li><a href="./media.html">Media</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--   logo graphic    <a target="_blank" href="https://www.vexels.com/vectors/preview/144604/forest-landscape-with-tall-trees"> Forest landscape with tall trees </a> | Free vector by <a target="_blank" href="https://www.vexels.com/">Vexels</a>-->
+
+            <!--    logo border   <a href="http://clipartmag.com/rope-circle-clipart">Rope Circle Clipart</a>-->
+        </div>
+        <div class="content-header">
+            <h2>John Muir Trail</h2>
+            <hr>
+            <p>History &amp; Trivia</p>
+        </div>
+        <div class="content">
+            <div class="three-column">
+                <div class="img-attr">
+                    <img src="./images/john-muir.jpg" alt="John Muir With Cane">
+                    <a href="https://commons.wikimedia.org/wiki/File:John_Muir_Cane.JPG" title="via Wikimedia Commons">Francis M. Fritz / Public domain</a>
+                </div>
+                <div class="logo-attr">
+                    <picture>
+                        <source srcset="images/nps-logo.webp " type="image/webp">
+                        <source srcset="images/nps-logo.png" type="image/png">
+                        <img src="./images/nps-logo.png" alt="National Park Service Logo">
+                    </picture>
+                    <a href="https://commons.wikimedia.org/wiki/File:Logo_of_the_United_States_National_Park_Service.svg" title="via Wikimedia Commons">NPS / Public domain</a>
+                </div>
+            </div>
+            <div>
+                <h2>John Muir, 1838 - 1914</h2>
+                <p>John Muir was born in Scotland in 1838 and immigrated to Wisconsin with his family in 1849 when he was 11 years old. Life on the homestead did not inspire him, and Muir soon left to seek out his own adventures. He found employment in a factory and it was inspiring to him but in an entirely unexpected way. After he was nearly blinded by an industrial accident, Muir found himself driven to learn everything he could about a world unaltered by man or machine. He briefly studied natural sciences at the University of Wisconsin but, ultimately, chose to spend his lifetime enrolled in what he called the “University of Wilderness.”</p>
+                <p>Following a brief visit the previous year, he arrived in Yosemite Valley in 1869 and spent his first summer as a sheepherder near Tuolumne Meadows. While Muir guided a flock of 2,000 sheep to the Tuolumne Meadows in the High Sierra, he studied the flora and fauna and sketched the mountain scenery. He was immediately entranced by the landscape, its vegetation, and the geologic history, and disgusted by the damage caused by sheep.</p>
+                <p>With the desire to share his experiences with the world Muir wrote his first article for publication on glaciers for the New York Tribune in September 1871. Throughout the 1870s, Muir's publications grew in popularity and he began to focus his efforts on natural landscape preservation. During the 1880s, he focused his attention on the destruction of natural resources in areas surrounding Yosemite.</p>
+                <p>In 1889, Muir took the editor of Century Magazine, Robert Underwood Johnson, to Tuolumne Meadows so he could see the damage the sheep inflict on the land. Muir convinced Johnson that the area could only be saved if it was made into a national park. Johnson’s publication of Muir’s exposés sparked a bill in the U.S. Congress that proposed creating a new federally administered park surrounding the old Yosemite Grant. Yosemite National Park became a reality in 1890. The Yosemite Grant wouldn't be returned to the Federal Government until 1906 though, when Muir guided Theodore Roosevelt through Yosemite and convinced him to extend it's protections.</p>
+                <p></p>
+                <p>John Muir has been known as a folk hero and the father of the conservation movement. He was the first president of the Sierra Club, filling that role from its inception in 1893 until his death in 1914, and it is said today that more places in California are named in his honor than for any other person. He is even depicted on the California state quarter. However, his contributions to the Sierra were broader, as he published many scientific articles and was also an energetic hiker and mountaineer who endlessly fought for the protection of nature. His contributions to the conservationist movement are truly inspiring and will continue to set an example for future generations about the importance of the natural world.</p>
+                <em>“Only by going alone in silence, without baggage, can one truly get into the heart of the wilderness. All other travel is mere dust and hotels and baggage and chatter.”</em> – John Muir in a letter to his wife Louie in July 1888
+                <h4>A Few of John Muir's Publications:</h4>
+                <ul>
+                    <li>Muir, J. (1911). <a href="https://archive.org/details/myfirstsummerins00muir/page/n11/mode/2up">My First Summer in the Sierra</a>. Boston and New York: Houghton Mifflin Company.<br><br></li>
+                    <li>Muir, J. (1912). <a href="http://www.archive.org/details/yosemite00unkngoog">The Yosemite</a>. New York, NY: The Century Company.<br><br></li>
+                    <li>Muir, J. (1915). <a href="http://www.archive.org/details/letterstoafrien00muirgoog">Letters to a Friend: Written to Mrs. Ezra S. Carr 1866-1879</a>. Boston and New York: The Riverside Press Cambridge.<br><br></li>
+                    <li><a href="https://vault.sierraclub.org/john_muir_exhibit/writings/yosemite_glaciers.aspx">John Muir's First Publication on Glaciers</a></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            Lucas Capasso, 2020 <br>
+            <a href="#">lcapasso@rams.colostate.edu</a><br>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home | Trail Guides | JMT Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main style sheet  -->
+
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+    <!-- Narrow style sheet  -->
+
+    <link href="css/mobile.css" rel="stylesheet" media="only screen and (max-width:700px)">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Raleway:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Controls function of hamburger menu  -->
+
+    <script>
+        $(document).ready(function() {
+            $(".cross").hide();
+            $(".menu").hide();
+            $(".hamburger").click(function() {
+                $(".menu").slideToggle("slow", function() {
+                    $(".hamburger").hide();
+                    $(".cross").show();
+                });
+            });
+
+            $(".cross").click(function() {
+                $(".menu").slideToggle("slow", function() {
+                    $(".cross").hide();
+                    $(".hamburger").show();
+                });
+            });
+        });
+
+    </script>
+
+    <div class="wrapper">
+        <div class="top">
+            <nav>
+                <ul>
+                    <li><a href="./getting-started.html">Getting Started</a></li>
+                    <li><a href="./permits.html">Permits</a></li>
+                    <li><a href="./trail-maps.html">Trail Maps</a></li>
+                    <li><a href="./gear-guide.html">Gear Guide</a></li>
+                    <li><a href="./wildlife-guide.html">Wildlife Guide</a></li>
+                    <li><a href="./media.html">Media</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </nav>
+            <!-- Hamburger menu controls -->
+
+            <div id="mobile">
+                <button class="hamburger">&#x2261;</button>
+                <button class="cross">x</button>
+            </div>
+
+            <!-- Hamburger menu options  -->
+
+            <div class="menu">
+                <ul>
+                    <li><a href="./getting-started.html">Getting Started</a></li>
+                    <li><a href="./permits.html">Permits</a></li>
+                    <li><a href="./trail-maps.html">Trail Maps</a></li>
+                    <li><a href="./gear-guide.html">Gear Guide</a></li>
+                    <li><a href="./wildlife-guide.html">Wildlife Guide</a></li>
+                    <li><a href="./media.html">Media</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </div>
+
+            <header class="landing-header">
+                <div>
+                    <a href="./index.html" class="home-logo">
+                        <h1><em>JMT</em></h1>
+                        <picture>
+                            <source srcset="images/logo.webp" type="image/webp">
+                            <source srcset="images/logo.png" type="image/png">
+                            <img src="./images/logo.png" alt="JMT Hub Logo">
+                        </picture>
+                        <h1><em>Hub</em></h1>
+                    </a>
+                </div>
+            </header>
+            <i class="arrow down"></i>
+            <!--     background image       <a href="https://commons.wikimedia.org/wiki/File:Mountains-1412683.svg" title="via Wikimedia Commons">m5tef/CC0</a>-->
+
+            <!--   logo graphic    <a target="_blank" href="https://www.vexels.com/vectors/preview/144604/forest-landscape-with-tall-trees"> Forest landscape with tall trees </a> | Free vector by <a target="_blank" href="https://www.vexels.com/">Vexels</a>-->
+
+            <!--    logo border   <a href="http://clipartmag.com/rope-circle-clipart">Rope Circle Clipart</a>-->
+        </div>
+        <div class="landing-content-header">
+            <h2>Welcome to JMT Hub!</h2>
+            <hr>
+            <p>Your guide to the Sierra Nevada Wilderness and the John Muir Trail</p>
+        </div>
+        <div class="content">
+            <p>The John Muir trail is a long stretch of paths through the Sierra Nevada Mountain Range starting in Yosemite Valley and heading south to the 14,505ft summit of Mount Whitney. Spanning 211 miles and over 80,000 feet of elevation change, it is no easy journey to undertake. Despite the hardships involved in preparing and executing a John Muir Trail trip, the popularity of the trail continues to grow as more and more people are drawn to the stunning natural beauty and the promise of adventure that the trail provides. This website will serve as a starting point for researching, planning, and preparing for a trip down the John Muir Trail, as well as providing a wealth of knowledge about the history, surrounding landscape, plant and animal life, and many more things. The John Muir Trail is considered by many to be a life changing journey, all you need to do is <a href="./getting-started.html"><strong>Go</strong></a>.</p>
+            <div class="img-attr">
+                <picture>
+                    <source media="(max-width: 700px)" srcset="./images/williamson-tree-mobile.jpg" type="image/jpeg">
+                    <source media="(min-width: 700px)" srcset="./images/williamson-tree-distant.jpg" type="image/jpeg">
+                    <img src="./images/williamson-tree-distant.jpg" alt="Mount Williamson Over Owens Valley">
+                </picture>
+
+                <a href="https://commons.wikimedia.org/wiki/File:Williamson_tree_distant.jpg" title="via Wikimedia Commons">Mount Williamson - Paul Fretheim (talk · contribs)</a>
+            </div>
+        </div>
+        <footer>
+            Lucas Capasso, 2020 <br>
+            <a href="#">lcapasso@rams.colostate.edu</a>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Media | JMT Guides | JMT Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main style sheet  -->
+
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+    <!-- Narrow style sheet  -->
+
+    <link href="css/mobile.css" rel="stylesheet" media="only screen and (max-width:1000px)">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Raleway:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Controls function of hamburger menu  -->
+
+    <script>
+        $(document).ready(function() {
+            $(".cross").hide();
+            $(".menu").hide();
+            $(".hamburger").click(function() {
+                $(".menu").slideToggle("slow", function() {
+                    $(".hamburger").hide();
+                    $(".cross").show();
+                });
+            });
+
+            $(".cross").click(function() {
+                $(".menu").slideToggle("slow", function() {
+                    $(".cross").hide();
+                    $(".hamburger").show();
+                });
+            });
+        });
+
+    </script>
+
+    <div class="wrapper">
+        <div class="small-top">
+            <div class="justified-flex">
+                <header class="smaller-header">
+                    <a href="./index.html" class="logo">
+                        <h2><em>JMT</em></h2>
+                        <picture>
+                            <source srcset="images/small-logo.webp" type="image/webp">
+                            <source srcset="images/small-logo.png" type="image/png">
+                            <img src="./images/small-logo.png" alt="JMT Hub Logo">
+                        </picture>
+                        <h2><em>Hub</em></h2>
+                    </a>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="./getting-started.html">Getting Started</a></li>
+                        <li><a href="./permits.html">Permits</a></li>
+                        <li><a href="./trail-maps.html">Trail Maps</a></li>
+                        <li><a href="./gear-guide.html">Gear Guide</a></li>
+                        <li><a href="./wildlife-guide.html">Wildlife Guide</a></li>
+                        <li><a href="./about.html">About</a></li>
+                    </ul>
+                </nav>
+                <!-- Hamburger menu controls -->
+
+                <div id="mobile">
+                    <button class="hamburger">&#x2261;</button>
+                    <button class="cross">x</button>
+                </div>
+
+                <!-- Hamburger menu options  -->
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="./getting-started.html">Getting Started</a></li>
+                        <li><a href="./permits.html">Permits</a></li>
+                        <li><a href="./trail-maps.html">Trail Maps</a></li>
+                        <li><a href="./gear-guide.html">Gear Guide</a></li>
+                        <li><a href="./wildlife-guide.html">Wildlife Guide</a></li>
+                        <li><a href="./about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--   logo graphic    <a target="_blank" href="https://www.vexels.com/vectors/preview/144604/forest-landscape-with-tall-trees"> Forest landscape with tall trees </a> | Free vector by <a target="_blank" href="https://www.vexels.com/">Vexels</a>-->
+
+            <!--    logo border   <a href="http://clipartmag.com/rope-circle-clipart">Rope Circle Clipart</a>-->
+        </div>
+        <div class="content-header">
+            <h2>John Muir Trail Guide</h2>
+            <hr>
+            <p>Media &amp; Documentaries</p>
+        </div>
+        <div class="two-column">
+            <p>This section contains documentaries, videos, and other media about the john muir trail and related topics.</p>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <iframe src="https://www.youtube.com/embed/cAnb4G9DmUk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="right-side">
+                   <h3>John Muir Trail - A 13 Day Documentary</h3>
+                    <p>A 45 minute documentary about two brothers who hike the John Muir Trail together in 13 days. The video shows their exploits and the beautiful scenery that they encounter. Its a really great watch to amp you up for the trail.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <iframe src="https://www.youtube.com/embed/fmF3oS5VqMg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="right-side">
+                    <h3>How I planned my John Muir Trail thru-hike</h3>
+                    <p>A video by Follow Bigfoot that explains how he planned his JMT thru hike trip and what you should do to plan yours. He gives a very concise description of the process and overall the video is very informative. Watch it to get a nice short summary of the stuff you need to know.</p>
+                </div>
+            </div>
+            <div class="bordered">
+               <h4>My Media</h4>
+                <p>The following pictures were taken by me and my Father while we walked the North Lake - South Lake loop in the John Muir Wilderness. A 55-mile loop that goes through what are widely proclaimed to be some of the most beautiful areas in the high sierras such as the John Muir pass to Evolution Valley.</p>
+                <div>
+                    <img class="normalize-img" src="./images/mytrip1.jpg" alt="Trail from Big Pete Meadow">
+                    <span>I believe this is on the trail heading uphill towards John Muir Pass from Big Pete Meadow.</span>
+                </div>
+                <div>
+                    <img class="normalize-img" src="./images/mytrip2.jpg" alt="Creek into Evolution Valley">
+                    <span>Creek feeding into Evolution Valley, the valley is behind us.</span>
+                </div>
+                <div>
+                    <img class="normalize-img" src="./images/mytrip3.jpg" alt="Somewhere near Bishop Pass">
+                    <span>I'm not sure where exactly this was taken, I think it was near Bishop Pass.</span>
+                </div>
+                <div>
+                    <img class="normalize-img" src="./images/mytrip4.jpg" alt="Below John Muir Pass">
+                    <span>Shot of John Muir Pass by Helen Lake</span>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Lucas Capasso, 2020 <br>
+            <a href="#">lcapasso@rams.colostate.edu</a>
+        </footer>
+    </div>
+</body>
+
+</html>

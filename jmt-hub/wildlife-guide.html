@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wildlife Guide | JMT Guides | JMT Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main style sheet  -->
+
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+    <!-- Narrow style sheet  -->
+
+    <link href="css/mobile.css" rel="stylesheet" media="only screen and (max-width:700px)">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Raleway:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Controls function of hamburger menu  -->
+
+    <script>
+        $(document).ready(function() {
+            $(".cross").hide();
+            $(".menu").hide();
+            $(".hamburger").click(function() {
+                $(".menu").slideToggle("slow", function() {
+                    $(".hamburger").hide();
+                    $(".cross").show();
+                });
+            });
+
+            $(".cross").click(function() {
+                $(".menu").slideToggle("slow", function() {
+                    $(".cross").hide();
+                    $(".hamburger").show();
+                });
+            });
+        });
+
+    </script>
+
+    <div class="wrapper">
+        <div class="small-top">
+            <div class="justified-flex">
+                <header class="smaller-header">
+                    <a href="./index.html" class="logo">
+                        <h2><em>JMT</em></h2>
+                        <picture>
+                            <source srcset="images/small-logo.webp" type="image/webp">
+                            <source srcset="images/small-logo.png" type="image/png">
+                            <img src="./images/small-logo.png" alt="JMT Hub Logo">
+                        </picture>
+                        <h2><em>Hub</em></h2>
+                    </a>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="./getting-started.html">Getting Started</a></li>
+                        <li><a href="./permits.html">Permits</a></li>
+                        <li><a href="./trail-maps.html">Trail Maps</a></li>
+                        <li><a href="./gear-guide.html">Gear Guide</a></li>
+                        <li><a href="./media.html">Media</a></li>
+                        <li><a href="./about.html">About</a></li>
+                    </ul>
+                </nav>
+                <!-- Hamburger menu controls -->
+
+                <div id="mobile">
+                    <button class="hamburger">&#x2261;</button>
+                    <button class="cross">x</button>
+                </div>
+
+                <!-- Hamburger menu options  -->
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="./getting-started.html">Getting Started</a></li>
+                        <li><a href="./permits.html">Permits</a></li>
+                        <li><a href="./trail-maps.html">Trail Maps</a></li>
+                        <li><a href="./gear-guide.html">Gear Guide</a></li>
+                        <li><a href="./media.html">Media</a></li>
+                        <li><a href="./about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--           boots pic <a href="https://commons.wikimedia.org/wiki/File:Old_friends.jpg" title="via Wikimedia Commons">Herbythyme</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>-->
+            <!--   logo graphic    <a target="_blank" href="https://www.vexels.com/vectors/preview/144604/forest-landscape-with-tall-trees"> Forest landscape with tall trees </a> | Free vector by <a target="_blank" href="https://www.vexels.com/">Vexels</a>-->
+
+            <!--    logo border   <a href="http://clipartmag.com/rope-circle-clipart">Rope Circle Clipart</a>-->
+        </div>
+        <div class="content-header">
+            <h2>John Muir Trail</h2>
+            <hr>
+            <p>Wildlife &amp; Plant Guide</p>
+        </div>
+        <div class="two-column">
+            <p>The plant and animal life of the Sierra Nevada Mountain range is vast and diverse with many rare species. This section will describe some of the more common plants and animals. The information on this page was sourced from <a href="https://www.nps.gov/">nps.gov</a> and <a href="https://www.ca.gov/">ca.gov</a> as well as the Encyclopedia Britannica.</p>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/california-black-oak.jpg" alt="California Black Oak">
+                    <a href="https://commons.wikimedia.org/wiki/File:California_Black_Oak_(45189763992).jpg" title="via Wikimedia Commons">San Bernardino Nat&#039;l Forest</a> / Public domain
+                </div>
+                <div class="right-side">
+                    <h3>The California Black Oak</h3>
+                    <p>The California black oak (Quercus kelloggii) is a large deciduous tree with yellow-green leaves and a dark, platted trunk that is commonly found in Yosemite Valley. It is the largest mountain oak in the West and surpasses all other California oaks in volume, distribution, and altitudinal range. The tree produces acorns that serve as a food source for a large number of animals and was historically used by Native Americans.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/ponderosa-pine.jpg" alt="Trunk view of Ponderosa Pine">
+                    <a href="https://commons.wikimedia.org/wiki/File:TheHouseGroupGiantForest.JPG" title="via Wikimedia Commons">Paul Rudenko</a> / Public domain
+                </div>
+                <div class="right-side">
+                    <h3>Ponderosa Pine</h3>
+                    <p>The Ponderosa pine (Pinus ponderosa) is easily identified by its puzzle-like bark, which has a pattern of irregularly-shaped plates separated by dark furrows. It is one of the tallest trees in its range, growing to incredible heights of over 200 feet, with huge trunks 3-4 feet across. They grow on dry mountain slopes and mesas, occurring in green, park-like stands on dry, well-drained, and exposed southerly slopes or plateaus.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/incense-cedar.jpg" alt="Trunk View of Incense Cedar">
+                    <a href="https://commons.wikimedia.org/wiki/File:Calocedrus_decurrens_01_by_Line1.jpg" title="via Wikimedia Commons">I, Liné1</a> / <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a>
+                </div>
+                <div class="right-side">
+                    <h3>Incense-cedar</h3>
+                    <p>The Incense-cedar (Calocedrus decurrens), also called white cedar, is often confused with the giant sequoia because it has feathery, reddish bark. The tree has a straight trunk, with reddish, furrowed bark, and spreading branches that end in sprays of branchlets, covered with dark green leaves. The incense-cedar may reach heights of 100 to 150 feet and up to 18 feet in diameter. It grows abundantly throughout the Sierra Nevadas below 7,000 feet.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/giant-sequoia.jpg" alt="Man Standing Near Sequoias">
+                    <a href="https://commons.wikimedia.org/wiki/File:TheHouseGroupGiantForest.JPG" title="via Wikimedia Commons">Paul Rudenko</a> / Public domain
+                </div>
+                <div class="right-side">
+                    <h3>Giant Sequoia</h3>
+                    <p>The Giant sequoia (Sequoiadendron giganteum), also called the Sierra Redwood, is the most massive living thing on earth. The giant sequoia is the only species of the genus Sequoiadendron and is distinct from the coast redwoods (Sequoia sempervirens), which are the tallest living trees. The trees are found in scattered groves on the western slopes of the Sierra Nevadas at elevations of 3000 - 8500 feet with 3 groves located in Yosemite National Park. The Sequoia has uniformly scalelike or awl-shaped leaves and compact cones that require two seasons to mature and open right after wildfires. They reach heights up to 354 feet and can be over 100 feet in diameter with reddish brown fibrous bark that is uniquely fire resistant. With the help of American conservationist John Muir, most of the 70 distinct groves are now under the protection of state or national forests or parks.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/sierra-tiger-lily.jpg" alt="Close Up of a Sierra Tiger Lily">
+                    <a href="https://commons.wikimedia.org/wiki/File:Lilium_parvum_alpine_lily_flowers_close_buds.jpg" title="via Wikimedia Commons">Dcrjsr</a> / <a href="https://creativecommons.org/licenses/by/3.0">CC BY</a>
+                </div>
+                <div class="right-side">
+                    <h3>Sierra Tiger Lily</h3>
+                    <p>The Sierra tiger lily (Lilium parvum) grows in mountainous forests, sending up stems with flower clusters of lily flowers during the summer months. The flowers are small for lilies, and more bell-shaped than most others. They are yellowish-orange to dark orange-red with lighter orange or yellow centers. The petals are spotted with purple or brown markings.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/california-golden-trout.jpg" alt="Man Holding Golden Trout">
+                    <a href="https://commons.wikimedia.org/wiki/File:California_Golden_Trout.jpg" title="via Wikimedia Commons">DaveWiz84</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+                </div>
+                <div class="right-side">
+                    <h3>California Golden Trout</h3>
+                    <p>California golden trout (Oncorhynchus mykiss aguabonita) are native to two stream systems on the eastern side of the Kern River: Golden Trout Creek and the South Fork Kern River (Tulare County). As a result of extensive pack train collection and stocking efforts over the last century, they can be found in nearby Cottonwood Lakes and Mulkey Creek, as well as several watersheds in the Sierra Nevada. They have a bright, yellow-gold coloration while their backs are usually copper, with brilliant golden sides and bright red bands on their flanks. Their bellies are often deep red, and even adult fish retain parr marks. They have large spots on their fins and tail, with black bands and white to yellowish tips. They can grow to about 8 inches and reach a maximum age of nine years in streams. They are endangered due to cross breeding with rainbow trout and competition with larger brown trout.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/california-black-bear.jpg" alt="California Black Bear in a Stream">
+                    <a href="https://commons.wikimedia.org/wiki/File:Black_bear_(20275621801).jpg" title="via Wikimedia Commons">California Department of Fish and Wildlife from Sacramento, CA, USA</a> / <a href="https://creativecommons.org/licenses/by/2.0">CC BY</a>
+                </div>
+                <div class="right-side">
+                    <h3>California Black Bear</h3>
+                    <p>California BLack Bears (Ursus americanus californiensis) are large, omnivorous animals native to the coastal mountains of Southern California to the Cascade range in Oregon at elevations of 3000 - 7000 feet. They can be up to 4 feet at shoulder height, 7 feet on their hind legs, and weight over 550 pounds. They are omnivorous and largely nocturnal. They feed mainly on insects, honey, and a large assortment of plant life, but will eat carrion if available.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/western-gray-squirrel.jpg" alt="Western Gray Squirrel Sitting in Leaves">
+                    <a href="https://commons.wikimedia.org/wiki/File:Western_Gray_Squirrel_4a_(b).JPG" title="via Wikimedia Commons">HomeinSalem</a> / <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA</a>
+                </div>
+                <div class="right-side">
+                    <h3>Western Gray Squirrel</h3>
+                    <p>The Western Gray Squirrel (Sciurus griseus) is the largest tree squirrel in the Sierra Nevadas. They are diurnal and spend a lot of their active time outside the nest, grooming, exploring the environment, foraging and resting. They are solitary and each have their own territory of 0.5 - 7 hectares, with females having a much smaller range on average. However, they aren't particularly territorial. They don't hibernate, but stay in their nests during the colder months. They are shy and will run up a tree and emit a chirping noise when threatened.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/golden-eagle.jpg" alt="Golden Eagle in Grass">
+                    <a href="https://commons.wikimedia.org/wiki/File:Golden_eagle_at_ACES_(11824).jpg" title="via Wikimedia Commons">Rhododendrites</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+                </div>
+                <div class="right-side">
+                    <h3>Golden Eagle</h3>
+                    <p>The Golden Eagle (Aquila chrysaetos) is the largest North American bird of prey, weighing 6 - 15 pounds with a wingspan of 6 to 7.5 feet. Unlike the Bald Eagle, they don't scavenge much and often go for prey up to the size of a fox or crane. The Native American people revered them for their strength and courage and held them as sacred. Adult Golden Eagles are dark brown with a golden sheen on the back of the head and neck. For their first several years of life, young birds have neatly defined white patches at the base of the tail and in the wings. Usually found alone or in pairs, Golden Eagles soar or glide with wings lifted into a slight “V” and the wingtip feathers spread like fingers. They capture prey on or near the ground, locating it with their keen eyesight by soaring, flying low over the ground, or hunting from a perch.</p>
+                </div>
+            </div>
+            <div class="bordered-flex" id="no-wrap">
+                <div class="left-side">
+                    <img src="./images/sierra-nevada-bighorn-sheep-group.jpg" alt="Group of Bighorn Sheep">
+                    <a href="https://commons.wikimedia.org/wiki/File:Sierra_Nevada_Bighorn_Sheep_group.jpg" title="via Wikimedia Commons">Dale Matson</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+                </div>
+                <div class="right-side">
+                    <h3>Sierra Nevada Bighorn Sheep</h3>
+                    <p>The Sierra Nevada Bighorn Sheep (Ovis canadensis) is a beautiful and endangered animal native to the High Sierra Mountain range. They were all but eliminated from the mountains by overhunting and disease spread from domesticated sheep. They were gone from Yosemite by 1915 and by 1990 only 125 individuals remained, but they ultimately would be saved by a California recovery plan. Rams weigh up to 220 pounds and stand three feet tall at the shoulders. Their immense curved horns can weigh over 15 pounds, making necessary the stoutness of the ram’s neck for support. Ewes weigh up to 140 pounds and have gently curved spiked horns much smaller than the rams’. The bighorn’s sure footedness in rocky elevations above 10,000 feet and atop solitary and almost inaccessible crags is made possible by extremely strong muscles and a unique foot adaptation. At the bottom of the foot is a rubber-like pad or cushion that grips both irregular and smooth surfaces. John Muir was profoundly moved by the power and beauty of the bighorns’ movements and recorded that the wild sheep “did not make a single awkward step, or an unsuccessful effort of any kind.”</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Lucas Capasso, 2020 <br>
+            <a href="#">lcapasso@rams.colostate.edu</a>
+        </footer>
+    </div>
+</body>
+
+</html>
