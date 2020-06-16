@@ -1,2 +1,2 @@
-# portfolio
-Stuff I've made
+# Portfolio
+Stuff I've made, projects, scripts, etc.
